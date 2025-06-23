@@ -2,6 +2,7 @@
   "name": "admin-management",
   "version": "1.0.0",
   "private": true,
+  "workspaces": ["shared"],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -20,4 +21,4 @@
     "vite": "^5.4.19",
     "vitest": "^1.0.4"
   }
-} 
+}
