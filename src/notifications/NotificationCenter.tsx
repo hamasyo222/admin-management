@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { BellIcon, XMarkIcon, CheckIcon } from '@heroicons/react/24/outline';
-import { Notification } from '../../types';
-import { useAuthStore } from '../../stores/authStore';
+import { Notification } from '../types';
+import { useAuthStore } from '../stores/authStore';
 import toast from 'react-hot-toast';
 
 interface NotificationCenterProps {
